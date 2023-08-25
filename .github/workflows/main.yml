@@ -17,6 +17,9 @@ jobs:
         with:
           dotnet-version: '7.0.x'
 
+      - name: Add GitHub Packages Source
+        run: dotnet nuget add package https://nuget.pkg.github.com/moisesalves1/index.json -n github -u moisesalves1 -p ${{ secrets.GITHUB_TOKEN }}
+
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
