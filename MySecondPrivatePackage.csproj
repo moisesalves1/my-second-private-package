@@ -4,6 +4,13 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MySecondPrivatePackage</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Moises Alves</Authors>
+    <Company>Womi</Company>
+    <PackageDescription>Meu pacote de exemplo</PackageDescription>
+    <RepositoryUrl>https://github.com/moisesalves1/my-second-private-package</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
